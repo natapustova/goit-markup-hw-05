@@ -179,7 +179,7 @@ button {
 
 /* #endregion header  */
 
-/* #region hero */
+/* #region hero  */
 .hero {
     background-color: #2e2f42;
     padding: 188px 0;
@@ -237,7 +237,8 @@ button {
 
 /* #endregion hero  */
 
-/* #section-advantages */
+/* #section-advantages*/
+
 .advantages {
     padding: 120px 0;
 }
