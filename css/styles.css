@@ -676,7 +676,7 @@ button {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background: #fcfcfc;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /* padding: ; */
+    padding: 72px 24px 24px 24px;
 }
 
 .backdrop:not(.is-open) .modal {
@@ -700,8 +700,10 @@ button {
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-
+.close-item {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-text {
@@ -736,11 +738,10 @@ button {
     gap: 4px;
     padding: 3px 0px;
     margin-bottom: 4px;
-    ;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    fill: #8e8f99;
+    color: #8e8f99;
 
 }
 
@@ -750,15 +751,14 @@ button {
 }
 
 .modal-input {
-    border: 1.25px solid #2e2f42;
-    /* width: 18px;
-        height: 0px */
-    width: 100%;
-    height: 58px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    height: 40px;
     border-radius: 4px;
-    outline: none;
-    transition: border 300ms linear;
-    /* padding-left: ; */
+    background-color: transparent;
+    padding-left: 38px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .modal-input:focus {
@@ -767,15 +767,16 @@ button {
 
 .modal-icon {
     position: absolute;
-    top: 50;
-    left: 0;
-    transform: translateY(-50);
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: #2e2f42;
-    transition: fill 300ms linear;
 }
 
 .modal-input:focus+.modal-icon {
     background-color: #4d5ae5;
+    ;
 }
 
 /* .close-item {
