@@ -634,9 +634,9 @@ button {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    transition: visibility 300ms linear, opacity 300ms linear, pointer-events 300ms linear;
-    /* transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        ovisibility 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        ovisibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .bakdrop is-open {
