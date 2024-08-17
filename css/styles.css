@@ -687,7 +687,9 @@ button {
 .modal-close-bt:hover,
 .modal-close-bt:focus {}
 
-.form-wrraptr-cont {}
+.form-wrraptr-cont {
+    margin-bottom: 8px;
+}
 
 .modal-form-label {
     display: block;
@@ -710,7 +712,13 @@ button {
         width: 100%;
         height: 58px;
         border-radius: 4px;
+        outline: none;
+        transition: border 300ms linear;
         /* padding-left: ; */
+    }
+
+    .modal-input:focus {
+        background-color: #4d5ae5;
     }
 
     .modal-icon {
@@ -718,8 +726,13 @@ button {
         top: 50;
         left: 0;
         transform: translateY(-50);
+        fill: #2e2f42;
+        transition: fill 300ms linear;
     }
 
+    .modal-input:focus+.modal-icon {
+        background-color: #4d5ae5;
+    }
 
     /* .close-item {
     color: currentColor;
