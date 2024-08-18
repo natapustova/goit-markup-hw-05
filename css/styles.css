@@ -850,7 +850,9 @@ button {
     color: #4d5ae5;
 }
 
-.modal-con-checkbox {}
+.modal-cont-checkbox {
+    margin-bottom: 40px;
+}
 
 .checkbox {}
 
@@ -863,6 +865,7 @@ button {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    margin: right 12px;
 }
 
 .checkbox:checked+custom-label-user-checkbox>.custom-checkbox {
@@ -872,5 +875,19 @@ button {
 }
 
 .modal-con-checkbox-icon {}
+
+.modal-submit {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+}
 
 /* #endmodal  */
