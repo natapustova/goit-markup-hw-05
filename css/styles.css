@@ -692,13 +692,10 @@ button {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close-bt:hover {
+.modal-close-bt:hover,
+.modal-close-bt:focus {
     background-color: #404bbf;
     border: none;
-    fill: #ffffff
-}
-
-.modal-close-bt:focus {
     fill: #ffffff
 }
 
@@ -715,12 +712,6 @@ button {
     color: #2e2f42;
     margin-bottom: 16px
 }
-
-
-
-/* .modal-close-bt:hover {
-    border: none;
-} */
 
 .form-wrraptr-cont {
     margin-bottom: 8px;
