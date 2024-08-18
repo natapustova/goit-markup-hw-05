@@ -841,6 +841,12 @@ button {
     justify-content: flex-start;
     flex-direction: row;
     gap: 8px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+
+
 }
 
 .user-privacy {
@@ -859,13 +865,14 @@ button {
 .custom-checkbox {
     border-radius: 2px;
     fill: #404bbf;
-    border: 1px solid #404bbf;
     width: 16;
     height: 16;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     margin: right 12px;
+    display: inline-flex;
+    border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
 .checkbox:checked+custom-label-user-checkbox>.custom-checkbox {
