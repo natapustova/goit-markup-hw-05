@@ -644,15 +644,15 @@ button {
 /* #endregion footer */
 
 /* #modal  */
-.bakdrop {
+.modal-wraper {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
-    /* opacity: 0;
-    visibility: hidden; */
+    opacity: 0;
+    visibility: hidden;
     pointer-events: none;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
         ovisibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -702,6 +702,16 @@ button {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-close-bt :hover {
+    background-color: #404bbf;
+    border: none;
+    fill: #ffffff
+}
+
+.modal-close-bt :focus {
+    fill: #ffffff
+}
+
 .close-item {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -716,11 +726,7 @@ button {
     margin-bottom: 16px
 }
 
-.modal-close-bt:hover,
-.modal-close-bt:focus {
-    background-color: #404bbf;
-    border: none;
-}
+
 
 /* .modal-close-bt:hover {
     border: none;
@@ -764,6 +770,7 @@ button {
 
 .modal-input:focus {
     background-color: #4d5ae5;
+    border-color: #4D5AE5;
 }
 
 .modal-icon {
@@ -780,6 +787,11 @@ button {
     ;
 }
 
+..modal-icon:focus {
+    fill: #4D5AE5;
+}
+
+.
 /* .close-item {
         color: currentColor;
         border-radius: 4px;
@@ -790,20 +802,6 @@ button {
 
 .form-wrraptr-comment {
     margin-bottom: 16px
-}
-
-.modal-form-label-comment {
-    display: block;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 4px;
-    padding: 3px 0px;
-    margin-bottom: 4px;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: #8e8f99;
 }
 
 .modal-textarea {
