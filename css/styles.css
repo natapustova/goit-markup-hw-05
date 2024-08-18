@@ -690,11 +690,14 @@ button {
     cursor: pointer;
 }
 
-.modal-close-bt:hover,
+.modal-close-bt:hover {
+    background-color: #404bbf;
+    border: none;
+}
+
 .modal-close-bt:focus {
     background-color: #404bbf;
     border: none;
-    fill: #ffffff
 }
 
 .close-item {
