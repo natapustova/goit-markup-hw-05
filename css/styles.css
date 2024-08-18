@@ -788,15 +788,12 @@ button {
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     } */
 
-.form-wrraptr-comment {}
+.form-wrraptr-comment {
+    margin-bottom: 16px
+}
 
 .modal-form-label-comment {
-    /* font-weight: 400;
-        font-size: 12px;
-        line-height: 1.16667;
-        letter-spacing: 0.04em;
-        color: #8e8f99;
-        display: block; */
+    display: block;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
@@ -823,10 +820,6 @@ button {
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-
-    width: 360px;
-    height: 138px;
 }
 
 .modal-textarea::placeholder {
@@ -837,5 +830,5 @@ button {
     color: rgba(46, 47, 66, 0.4);
 }
 
-f
+
 /* #endmodal  */
