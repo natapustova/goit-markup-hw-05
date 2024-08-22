@@ -644,6 +644,13 @@ button {
 /* #endregion footer */
 
 /* #modal  */
+
+.modal-wraper.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
 .modal-wraper {
     position: fixed;
     top: 0;
@@ -843,14 +850,15 @@ button {
 .custom-checkbox {
     border-radius: 2px;
     fill: #404bbf;
-    width: 16;
-    height: 16;
+    width: 16px;
+    height: 16px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     margin: right 12px;
     display: inline-flex;
     border: 1px solid rgba(46, 47, 66, 0.4);
+    fill: transparent;
 }
 
 .checkbox:checked+custom-label-user-checkbox>.custom-checkbox {
