@@ -772,9 +772,9 @@ button {
     fill: #2e2f42;
 }
 
-/*.modal-input:focus+.modal-icon {
+.modal-input:focus+.modal-icon {
     fill: #4D5AE5;
-}*/
+}
 
 .modal-icon:focus,
 .modal-icon:hover {
@@ -861,7 +861,7 @@ button {
     fill: transparent;
 }
 
-.checkbox:checked+custom-label-user-checkbox>custom-checkbox {
+.checkbox:checked+.custom-label-user-checkbox>.custom-checkbox {
     border-color: none;
     background-color: #404bbf;
     fill: #F4F4FD;
