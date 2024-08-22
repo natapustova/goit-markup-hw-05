@@ -861,11 +861,10 @@ button {
     fill: transparent;
 }
 
-.checkbox:checked+custom-label-user-checkbox>.custom-checkbox {
+.checkbox:checked+custom-label-user-checkbox>custom-checkbox {
     border-color: none;
     background-color: #404bbf;
     fill: #F4F4FD;
-
 }
 
 .modal-con-checkbox-icon {}
