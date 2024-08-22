@@ -694,6 +694,7 @@ button {
     padding: 0;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
+    display: flex;
 }
 
 .modal-close-bt:hover {
