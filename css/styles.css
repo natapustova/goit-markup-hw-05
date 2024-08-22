@@ -862,8 +862,9 @@ button {
 }
 
 .checkbox:checked+custom-label-user-checkbox>.custom-checkbox {
-    border-color: transparent;
-    background-color: ;
+    border-color: none;
+    background-color: #404bbf;
+    fill: #F4F4FD;
 
 }
 
