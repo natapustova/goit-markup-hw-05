@@ -866,6 +866,7 @@ button {
     border-color: none;
     background-color: #404bbf;
     fill: #F4F4FD;
+    border: none;
 }
 
 .modal-con-checkbox-icon {}
