@@ -823,7 +823,7 @@ button {
 
 .custom-label-user-checkbox {
     cursor: pointer;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
@@ -844,12 +844,10 @@ button {
 .modal-con-checkbox {
     margin-bottom: 40px;
     margin-bottom: 24px;
-    display: inline-flex;
 }
 
 .checkbox {
     border: none;
-    display: inline-flex;
 }
 
 .custom-checkbox {
