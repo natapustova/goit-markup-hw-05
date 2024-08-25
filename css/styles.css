@@ -638,7 +638,8 @@ button {
 }
 
 .footer-form-button-item {
-    margin-left: 16px
+    margin-left: 16px;
+    color: #ffffff;
 }
 
 /* #endregion footer */
@@ -670,7 +671,6 @@ button {
     top: 50%;
     left: 50%;
     width: 408px;
-    height: 584px;
     min-height: 584px;
     border-radius: 4px;
     transform: translate(-50%, -50%);
@@ -781,14 +781,6 @@ button {
     fill: #4D5AE5;
 }
 
-/* .close-item {
-        color: currentColor;
-        border-radius: 4px;
-        width: 24px;
-        height: 24px;
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    } */
-
 .form-wrapper-comment {
     margin-bottom: 16px
 }
@@ -858,7 +850,7 @@ button {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /* display: inline-flex; */
+
     align-items: center;
     justify-content: center;
     fill: transparent;
@@ -883,6 +875,7 @@ button {
     background: #4d5ae5;
     border-radius: 4px;
     padding: 16px 32px;
+    margin: 0 auto;
     min-width: 169px;
     height: 56px;
     min-width: 169px;
